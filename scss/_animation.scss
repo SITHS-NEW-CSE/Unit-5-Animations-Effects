@@ -1,0 +1,38 @@
+.animation {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  color: white;
+}
+
+@keyframes test {
+  0% {
+    left: 50%;
+    bottom: 10%;
+    background-color: red;
+  }
+  25% {
+    left: 50%;
+    bottom: 20%;
+    background-color: yellow;
+  }
+  50% {
+    left: 55%;
+    bottom: 20%;
+    background-color: blue;
+  }
+  75% {
+    left: 55%;
+    bottom: 10%;
+    background-color: purple;
+  }
+  100% {
+    left: 50%;
+    bottom: 10%;
+    background-color: red;
+  }
+}
