@@ -9,6 +9,7 @@
   color: white;
 }
 
+//animation is done through keyframes, the major "checkpoints" of your animation, you can even think of it as the beginning, middle, and end of what you want your animation to do.
 @keyframes test {
   0% {
     left: 50%;

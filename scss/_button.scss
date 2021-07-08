@@ -1,5 +1,8 @@
 .form {
-  text-align: center;
+  position: relative;
+  left: 50%;
+  width: 135px;
+  height: 45px;
 }
 
 .button {
@@ -8,7 +11,6 @@
 
 .form:hover {
   //:hover is a pseudo-class that causes an effect while the cursor is hovering over the object
-  transform: scale(
-    1.3
-  ); //scale is a transformation that causes the size of an element to change. the size is multiplied by the number in parenthesis.
+  transform: scale(1.3);
+  //scale is a transformation that causes the size of an element to change. the size is multiplied by the number in parenthesis.
 }

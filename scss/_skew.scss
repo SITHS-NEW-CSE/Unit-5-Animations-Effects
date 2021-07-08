@@ -1,0 +1,15 @@
+.skew {
+  position: relative;
+  left: 50%;
+  transition: 0.3s;
+  //transition time dictates the time it takes for your hover effect the fully play out, no transition time will cause the effect to be instant.
+  font-size: 1.6rem;
+  width: 15rem;
+}
+
+.skew:hover {
+  transform: skew(-5deg, -5deg) scale(1.5);
+  //the skew transformation will skew the element you have on screen on the x and y axis, respectively, by the degree that you set on each.
+  color: blue;
+  //you can also change the color of an element on hover
+}
