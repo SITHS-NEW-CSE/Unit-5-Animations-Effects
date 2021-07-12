@@ -29,7 +29,7 @@
 .demo-photo:hover {
   transform: scale(1.1);
   outline: 1rem solid #222;
-  z-index: 2;
+  z-index: 2; //z-index dictates whether the element is in front of or in back of another element. 0 is the lowest, default value, putting elements the furthest in the background. z-index can be as high as ±2147483647, the higher the value the further the value is in the foreground
 }
 .gallery:hover .demo-photo:not(:hover) {
   //:not(:hover) causes an effect when another element in the gallery class is being hovered over. if something outside of gallery is being hovered over then there will be no effect caused by :not(:hover).
